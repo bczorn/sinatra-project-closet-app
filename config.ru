@@ -9,3 +9,6 @@ user RACK::MethodOverride
 
 # where i will mount other controllers with 'use'
 run ApplicationController
+use UsersController
+use ItemsController
+use ClosetsController
