@@ -1,6 +1,6 @@
-class ClosetItemRelationships < ActiveRecord::Migration[6.1]
+class ClosetItems < ActiveRecord::Migration[6.1]
   def change
-    create_table :closet_item_relationships do |t|
+    create_table :closet_items do |t|
       t.integer :closet_id
       t.integer :item_id
 
